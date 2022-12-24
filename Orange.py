@@ -54,9 +54,8 @@ for item in items:
         number = number.text.strip()
     else:
         number = "Not found"
-    # Format the output string with the extracted information
     output = f"Full Name: {name}\nType: {type_}\nAddresse: {address}\nNumero: {number}\n"
-    # Increment the counter
+    print(output)
     count += 1
 
 # If no results were found, print a message
