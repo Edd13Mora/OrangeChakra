@@ -28,13 +28,37 @@ headers = {'User-Agent': user_agent}
 response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.text, "html.parser")
 items = soup.find_all(class_="item-content")
+
+# Initialize a counter to track the number of results
+count = 0
+
 for item in items:
     # Extract the name, type, address, and number from the item
-    name = item.find(class_="titre").text.strip()
-    type_ = item.find(class_="activity").text.strip()
-    address = item.find(class_="address").text.strip()
-    number = item.find(class_="button_wording nomobile").text.strip()
+    name = item.find(class_="titre")
+    if name:
+        name = name.text.strip()
+    else:
+        name = "Not found"
+    type_ = item.find(class_="activity")
+    if type_:
+        type_ = type_.text.strip()
+    else:
+        type_ = "Not found"
+    address = item.find(class_="address")
+    if address:
+        address = address.text.strip()
+    else:
+        address = "Not found"
+    number = item.find(class_="button_wording nomobile")
+    if number:
+        number = number.text.strip()
+    else:
+        number = "Not found"
     # Format the output string with the extracted information
-    output = f"Full Name: {name}\nType: {type_}\nAddresse: {address}\nNumero: {number}"
-    print(output)
+    output = f"Full Name: {name}\nType: {type_}\nAddresse: {address}\nNumero: {number}\n"
+    # Increment the counter
+    count += 1
 
+# If no results were found, print a message
+if count == 0:
+    print("No Informations has been found !")
