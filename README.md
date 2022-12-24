@@ -1,7 +1,7 @@
-# OrangeOSINT
+# OrangeChakra
 
 <p align="center"> 
-  <img src="https://o.remove.bg/downloads/70682b5c-5d74-4fe9-8a7f-a4e1ee231151/4d62646c81ceeb7e6a963e66bf1adc63-removebg-preview.png" alt="Pacman Logo" >
+  <img src="https://o.remove.bg/downloads/f89e74b8-2508-403d-b99d-900dbd4bf43e/b4fcdaa405f7eb8c023e462afdef5704-removebg-preview.png" alt="Pacman Logo" >
 </p>
 <p>A tool for conducting OSINT on individuals in France and determining their exact address location by searching by name.</p>
 
