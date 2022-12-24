@@ -10,8 +10,9 @@
 
 <p align="justify" id="scenario3">  :small_orange_diamond:
   Python3 orange.py eddie_morra</br></p>
- 
+ <img src="https://raw.githubusercontent.com/Edd13Mora/OrangeChakra/main/poc.png" alt="Pacman Logo" >
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
+
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eddiemora/)
