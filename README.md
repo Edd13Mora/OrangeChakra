@@ -10,6 +10,8 @@
 
 <p align="justify" id="scenario3">  :small_orange_diamond:
   pip install beautifulsoup4
+  </br>
+  :small_orange_diamond:
   Python3 orange.py eddie_morra</br></p>
  <img src="https://raw.githubusercontent.com/Edd13Mora/OrangeChakra/main/poc.png" alt="Pacman Logo" >
 <!-- CREDITS -->
