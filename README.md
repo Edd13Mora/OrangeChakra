@@ -5,14 +5,20 @@
 </p>
 <p>A tool for conducting OSINT on individuals and organizations in France and determining their exact address location by searching by name.</p>
 
+<h2 id="installation"> :pencil: Installation</h2>
+
+  ```
+  git clone https://github.com/Edd13Mora/OrangeChakra 
+  cd OrangeChakra
+  pip install -r requirements.txt
+  ```  
+  
 <!-- ABOUT THE PROJECT -->
 <h2 id="about-the-project"> :pencil: Usage</h2>
 
-<p align="justify" id="scenario3">  :small_orange_diamond:
-  pip install beautifulsoup4
-  </br>
-  :small_orange_diamond:
-  Python3 orange.py eddie_morra</br></p>
+
+  :small_orange_diamond:``` Python3 orange.py eddie_morra ```
+  
  <img src="https://raw.githubusercontent.com/Edd13Mora/OrangeChakra/main/poc.png" alt="Pacman Logo" >
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
